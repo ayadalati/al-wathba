@@ -37,6 +37,10 @@ export class AdminPanelComponent implements OnInit {
   {
     this.router.navigate(["/add-news"])
   }
+  go_to_add_eq()
+  {
+    this.router.navigate(["/add-eq"])
+  }
 
 
 

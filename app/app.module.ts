@@ -16,6 +16,9 @@ import { AddMatchComponent } from './admin/add-match/add-match.component';
 import { FormsModule } from '@angular/forms';
 import { AddTrainingComponent } from './admin/add-training/add-training.component';
 import { AddNewsComponent } from './admin/add-news/add-news.component';
+import { AddEqComponent } from './admin/add-eq/add-eq.component';
+import { PlayerPanelComponent } from './player/player-panel/player-panel.component';
+import { CoachPanelComponent } from './coach/coach-panel/coach-panel.component';
 
 
 @NgModule({
@@ -33,6 +36,9 @@ import { AddNewsComponent } from './admin/add-news/add-news.component';
     AddMatchComponent,
     AddTrainingComponent,
     AddNewsComponent,
+    AddEqComponent,
+    PlayerPanelComponent,
+    CoachPanelComponent,
     
   ],
   imports: [

@@ -1,3 +1,6 @@
+import { CoachPanelComponent } from './coach/coach-panel/coach-panel.component';
+import { PlayerPanelComponent } from './player/player-panel/player-panel.component';
+import { AddEqComponent } from './admin/add-eq/add-eq.component';
 import { AddNewsComponent } from './admin/add-news/add-news.component';
 import { AddTrainingComponent } from './admin/add-training/add-training.component';
 import { AddMatchComponent } from './admin/add-match/add-match.component';
@@ -22,6 +25,9 @@ const routes: Routes = [
   { path:  'add-match', component:AddMatchComponent},
   { path:  'add-training', component:AddTrainingComponent},
   { path:  'add-news', component:AddNewsComponent},
+  { path:  'add-eq', component:AddEqComponent},
+  { path:  'player-panel', component:PlayerPanelComponent},
+  { path:  'coach-panel', component:CoachPanelComponent},
   
 
 

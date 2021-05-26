@@ -4,24 +4,26 @@
 .container2
 {
     margin: 0 auto;
-    
-    
-    
 }
 .container
 {
-    
+
     display:inline-block;
     justify-content: center;
-    align-items: center;   
+    align-items: center;  
     height: fit-content;
+
     background-image: url(../../../assets/m.jpg);
+
     background-size: cover;
     max-width:100%;
-
-
-    
+    margin-bottom: 0px;
        
+}
+a:visited,a:link,a,a:hover
+{
+     text-decoration: none;
+     color: black;
 }
 *
  {
