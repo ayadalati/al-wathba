@@ -14,6 +14,42 @@ export class AdminPanelComponent implements OnInit {
     this.router.navigate(["/add-player"])
   }
 
+  go_to_add_coach()
+  {
+    this.router.navigate(["/add-coach"])
+  }
+
+  go_to_add_match()
+  {
+    this.router.navigate(["/add-match"])
+  }
+  go_to_add_employee()
+  {
+    this.router.navigate(["/add-employee"])
+  }
+
+  go_to_add_training()
+  {
+    this.router.navigate(["/add-training"])
+  }
+
+  go_to_add_news()
+  {
+    this.router.navigate(["/add-news"])
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
   ngOnInit(): void {
   }
 

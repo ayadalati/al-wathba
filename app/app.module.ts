@@ -9,6 +9,13 @@ import { AboutComponent } from './website/about/about.component';
 import { SignInComponent } from './website/sign-in/sign-in.component';
 import { AdminPanelComponent } from './admin/admin-panel/admin-panel.component';
 import { AddPlayerComponent } from './admin/add-player/add-player.component';
+import { HomeComponent } from './website/home/home.component';
+import { AddEmployeeComponent } from './admin/add-employee/add-employee.component';
+import { AddCoachComponent } from './admin/add-coach/add-coach.component';
+import { AddMatchComponent } from './admin/add-match/add-match.component';
+import { FormsModule } from '@angular/forms';
+import { AddTrainingComponent } from './admin/add-training/add-training.component';
+import { AddNewsComponent } from './admin/add-news/add-news.component';
 
 
 @NgModule({
@@ -20,11 +27,18 @@ import { AddPlayerComponent } from './admin/add-player/add-player.component';
     SignInComponent,
     AdminPanelComponent,
     AddPlayerComponent,
+    HomeComponent,
+    AddEmployeeComponent,
+    AddCoachComponent,
+    AddMatchComponent,
+    AddTrainingComponent,
+    AddNewsComponent,
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
