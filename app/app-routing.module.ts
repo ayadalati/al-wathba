@@ -1,3 +1,9 @@
+import { AdsComponent } from './website/ads/ads.component';
+import { ChangePassComponent } from './website/change-pass/change-pass.component';
+import { MatchRequestComponent } from './coach/match-request/match-request.component';
+import { EqRequestComponent } from './coach/eq-request/eq-request.component';
+import { AddMatchDetailsComponent } from './admin/add-match-details/add-match-details.component';
+import { HeaderComponent } from './website/header/header.component';
 import { CoachPanelComponent } from './coach/coach-panel/coach-panel.component';
 import { PlayerPanelComponent } from './player/player-panel/player-panel.component';
 import { AddEqComponent } from './admin/add-eq/add-eq.component';
@@ -28,6 +34,14 @@ const routes: Routes = [
   { path:  'add-eq', component:AddEqComponent},
   { path:  'player-panel', component:PlayerPanelComponent},
   { path:  'coach-panel', component:CoachPanelComponent},
+  { path:  'header', component:HeaderComponent},
+  { path:  'add-match-details', component:AddMatchDetailsComponent},
+  { path:  'eq-request', component:EqRequestComponent},
+  { path:  'match-request', component:MatchRequestComponent},
+  { path:  'change-pass', component:ChangePassComponent},
+  { path:  'ads', component:AdsComponent},
+  
+
   
 
 

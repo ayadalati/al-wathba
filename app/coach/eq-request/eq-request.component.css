@@ -21,16 +21,15 @@
 {
     /*border: 2px solid rgb(206, 37, 141); */
     margin:0px auto;
-    padding: 0px ;
+    padding: 0px auto;
+   /* text-align: right;*/
 }
 .form1
 {
     /*border: 2px solid red;*/
   max-width:100% ;
-
-/*background-image: url(../../../assets/m.jpg);
+background-image: url(../../../assets/m.jpg);
 background-size: cover;
-*/
   display:flex;
   justify-content: center;
   align-items: center;
@@ -52,10 +51,6 @@ input
 {
     margin-top: 1rem;
     font-weight: 800;
-    margin:0px auto;
-    text-align: center;
-    margin-left: 2rem;
-    margin-right: 1.5rem;
 }
 .card-title
 {
@@ -70,5 +65,10 @@ margin-top: 2rem;
 .add-player-logo
 {
   margin-top: 2rem;
+}
+
+#exampleFormControlTextarea1
+{
+    text-align: right;
 }
 

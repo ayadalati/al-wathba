@@ -9,28 +9,30 @@
     
     font-family: 'Tajawal', sans-serif;
     font-weight: 1000;
-   /* background-image: url(../../../assets/k.jpg);
-  background-size: cover;
-  */
+  
 }
 .card
 {
+     
+  
     /*border: 2px solid 	#df4759;*/
+
+    
 }
 .form-group 
 {
     /*border: 2px solid rgb(206, 37, 141); */
-    margin:0px auto;
-    padding: 0px ;
+    margin: 0px auto;
+    padding: 0px auto ;
+    
 }
 .form1
 {
-    /*border: 2px solid red;*/
+    background-image: url(../../../assets/m.jpg);
+    background-size: cover;
+   /* border: 2px solid red;*/
   max-width:100% ;
 
-/*background-image: url(../../../assets/m.jpg);
-background-size: cover;
-*/
   display:flex;
   justify-content: center;
   align-items: center;
@@ -52,23 +54,20 @@ input
 {
     margin-top: 1rem;
     font-weight: 800;
-    margin:0px auto;
-    text-align: center;
-    margin-left: 2rem;
-    margin-right: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card-title
 {
   margin-top: 1rem;
   font-family: 'Tajawal', sans-serif;
   font-weight: 1000;
-}
-.myfile
-{
-margin-top: 2rem;
-}
-.add-player-logo
-{
-  margin-top: 2rem;
+  font-size: 35px;
 }
 
+.signin-logo
+{
+margin-bottom: 1rem;
+margin-top: 2rem;
+
+}

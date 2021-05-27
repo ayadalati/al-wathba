@@ -13,7 +13,7 @@ export class SignInComponent implements OnInit {
   
   go_to_admin_panel()
   {
-    var x:number =(<HTMLInputElement>document.getElementById("member_number")).value;
+    var x:number =parseInt((<HTMLInputElement>document.getElementById("member_number")).value);
     
    
      if(x==1)

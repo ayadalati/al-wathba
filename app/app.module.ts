@@ -19,6 +19,12 @@ import { AddNewsComponent } from './admin/add-news/add-news.component';
 import { AddEqComponent } from './admin/add-eq/add-eq.component';
 import { PlayerPanelComponent } from './player/player-panel/player-panel.component';
 import { CoachPanelComponent } from './coach/coach-panel/coach-panel.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { AddMatchDetailsComponent } from './admin/add-match-details/add-match-details.component';
+import { EqRequestComponent } from './coach/eq-request/eq-request.component';
+import { MatchRequestComponent } from './coach/match-request/match-request.component';
+import { ChangePassComponent } from './website/change-pass/change-pass.component';
+import { AdsComponent } from './website/ads/ads.component';
 
 
 @NgModule({
@@ -39,12 +45,21 @@ import { CoachPanelComponent } from './coach/coach-panel/coach-panel.component';
     AddEqComponent,
     PlayerPanelComponent,
     CoachPanelComponent,
+    AddMatchDetailsComponent,
+    EqRequestComponent,
+    MatchRequestComponent,
+    ChangePassComponent,
+    AdsComponent,
+    
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
+
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
