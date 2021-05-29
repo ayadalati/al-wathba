@@ -1,3 +1,6 @@
+import { AboutComponent } from './website/about/about.component';
+import { MytestComponent } from './website/mytest/mytest.component';
+import { FooterComponent } from './website/footer/footer.component';
 import { AdsComponent } from './website/ads/ads.component';
 import { ChangePassComponent } from './website/change-pass/change-pass.component';
 import { MatchRequestComponent } from './coach/match-request/match-request.component';
@@ -40,6 +43,11 @@ const routes: Routes = [
   { path:  'match-request', component:MatchRequestComponent},
   { path:  'change-pass', component:ChangePassComponent},
   { path:  'ads', component:AdsComponent},
+  { path:  'footer', component:FooterComponent},
+  { path:  'test', component:MytestComponent},
+  { path:  'about', component:AboutComponent},
+  
+
   
 
   

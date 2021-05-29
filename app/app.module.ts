@@ -25,6 +25,7 @@ import { EqRequestComponent } from './coach/eq-request/eq-request.component';
 import { MatchRequestComponent } from './coach/match-request/match-request.component';
 import { ChangePassComponent } from './website/change-pass/change-pass.component';
 import { AdsComponent } from './website/ads/ads.component';
+import { MytestComponent } from './website/mytest/mytest.component';
 
 
 @NgModule({
@@ -50,6 +51,7 @@ import { AdsComponent } from './website/ads/ads.component';
     MatchRequestComponent,
     ChangePassComponent,
     AdsComponent,
+    MytestComponent,
     
     
   ],
